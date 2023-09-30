@@ -1,0 +1,29 @@
+.fullpage_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Landing_section {
+    width: 100%;
+}
+
+.Latest_section {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.QandaPage_section {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.Footer_section {
+    width: 100%;
+    margin-top: 8%;
+}
+
+@media (max-width: 720px) {
+    
+}

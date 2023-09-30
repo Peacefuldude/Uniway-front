@@ -1,0 +1,29 @@
+.ActiveTravel_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ActiveTicket_sec {
+    width: 100%;
+    border-bottom: 3px solid rgba(234, 236, 240, 1)
+}
+
+.ActiveTicket_sec h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(111, 119, 133, 1);
+}
+
+.UsedTickets_sec {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.UsedTickets_sec h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(111, 119, 133, 1);
+}

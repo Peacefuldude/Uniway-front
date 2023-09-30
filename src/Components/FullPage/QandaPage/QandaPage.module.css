@@ -1,0 +1,136 @@
+.QandaPage_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_sec {
+    width: 90%;
+    background: url('../../../Images/qanda.png') no-repeat right;
+}
+
+.header_sec h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(39, 43, 49, 1);
+    margin-right: 7%;
+}
+
+.main_qnada_sec {
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_qnda_sec {
+    width: 90%;
+}
+
+.questions_sec {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.questions_sec h1 {
+    font-size: 32px;
+}
+
+.certainq_div {
+    width: 80%;
+    padding: 1% 1% 1% 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 218, 226, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.certainq_div div {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(81, 87, 97, 1);
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 200ms ease-in;
+}
+
+.certainq_div div:hover {
+    transition: all 200ms ease-in;
+}
+
+.certainq_div div img {
+    width: 12px;
+    /* height: 36px; */
+}
+
+.span_active {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 200ms ease-in-out;
+}
+
+.spandeActive {
+    display: none;
+    /* font-size: 11px;
+    font-weight: bold;
+    color: #8a8a8a;
+    transition: all 200ms ease-in-out; */
+}
+
+@media (max-width: 720px) {
+
+    .info_pic {
+        display: none;
+    }
+
+    .info_pic_for_phone {
+        display: block;
+        margin: 5% 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .main_qnada_sec {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        border-radius: 0 0 35px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutUs_info_sec {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .certainq_div {
+        padding: 2% 5% 5% 5%;
+        margin-top: 4%;
+    }
+
+    .span_active {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}

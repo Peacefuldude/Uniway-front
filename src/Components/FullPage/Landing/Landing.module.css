@@ -1,0 +1,224 @@
+.Landing_Container {
+    width: 100%;
+    height: 85vh;
+    padding-top: 2%;
+    background-image: url('../../../Images/Landing.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Navbar_section {
+    width: 100%;
+}
+
+.Search_section {
+    width: 75%;
+    height: 22%;
+    margin-top: 19%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInput_from {
+    width: 30%;
+    height: 3rem;
+    padding: 1px 35px 5px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 0.5%;
+    border: 2px solid rgb(183, 183, 183);
+    outline: none;
+    direction: rtl;
+    background-color: transparent;
+    background: url('../../../Images/locIcon.png') no-repeat 97%;
+    color: rgb(74, 74, 74);
+}
+
+.formInput_from::placeholder {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+	font-family: 'Yekan-bakh';
+}
+
+.formInput_To {
+    width: 30%;
+    height: 3rem;
+    padding: 1px 35px 5px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 0.5%;
+    border: 2px solid rgb(183, 183, 183);
+    outline: none;
+    direction: rtl;
+    background-color: transparent;
+    background: url('../../../Images/toIcon.png') no-repeat 97%;
+    color: rgb(74, 74, 74);
+}
+
+.formInput_To::placeholder {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+	font-family: 'Yekan-bakh';
+}
+
+.formInput_date {
+    width: 30%;
+    height: 3rem;
+    padding: 1px 35px 5px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 5% 0 0;
+    border: 2px solid rgb(183, 183, 183);
+    outline: none;
+    direction: rtl;
+    background-color: transparent;
+    background: url('../../../Images/date.png') no-repeat 97%;
+    color: rgb(74, 74, 74);
+}
+
+.formInput_date::placeholder {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+	font-family: 'Yekan-bakh';
+}
+
+.formButtons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formButtonsDisabled {
+    display: none;
+}
+
+.submitButton {
+    font-family: Yekan-bakh;
+    display: inline-block;
+    border: none;
+    color: var(--grey);
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255, 212, 60, 1);
+    box-shadow: 0px 0px 11px 0px rgba(253, 230, 19, 0.9);
+    font-size: 16px;
+    width: 80%;
+    height: 3.5rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background: rgb(237, 197, 53);
+}
+
+@media (max-width: 720px) {
+
+    .Search_section {
+        width: 65%;
+        height: 60%;
+    }
+
+    .formContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formInput_from {
+        width: 70%;
+        margin: 1% 0;
+    }
+
+    .formInput_To {
+        width: 70%;
+        margin: 1% 0;
+    }
+
+    .formInput_date {
+        width: 70%;
+        margin: 5% 0 0 0;
+    }
+
+    .formButtons {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .submitButton {
+        width: 78%;
+    }
+}
+
+@media (max-width: 420px) {
+    .Landing_Container {
+        width: 100%;
+        height: 40vh;
+        padding: 0;
+        background-image: url('../../../Images/Landingmobile.png');
+    }
+
+    .Search_section {
+        width: 80%;
+        height: 100%;
+        margin-top: 30%;
+        padding: 8% 0;
+    }
+
+    .formContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formInput_from {
+        width: 70%;
+        margin: 1% 0;
+    }
+
+    .formInput_To {
+        width: 70%;
+        margin: 1% 0;
+    }
+
+    .formInput_date {
+        width: 70%;
+        margin: 8% 0 0 0;
+    }
+
+    .formButtons {
+        width: 100%;
+        margin-top: 8%;
+    }
+
+    .submitButton {
+        width: 80%;
+    }
+}

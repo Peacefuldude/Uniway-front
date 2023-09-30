@@ -1,0 +1,347 @@
+.Ticket_Container {
+    width: 100%;
+    height: 18rem;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(130, 130, 130, 0.2) 0px 2px 6px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;   
+    align-items: center;
+}
+
+.left_sec {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background: var(--bg_white);
+    border-right: 2px #737373 dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+
+.left_sec div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_sec div p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.left_sec div span {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(154, 164, 183, 1);
+}
+
+.left_sec button {
+    width: 70%;
+    height: 3rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(39, 43, 49, 1);
+    border-radius: 10px;
+    align-items: center;
+	font-family: 'Yekan-bakh';
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: rgba(255, 212, 60, 1);
+    box-shadow: 0px 0px 11px 0px rgba(253, 230, 19, 0.9);
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    transition: all ease-in 0.3s;
+}
+
+.left_sec button:hover {
+    background: rgb(237, 197, 53);
+}
+
+.left_sec button img {
+    margin:0 0 5px 5px;
+}
+
+.left_sec h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 164, 183, 1);
+}
+
+.right_sec {
+    width: 70%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background: var(--bg_white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_top {
+    width: 98.5%;
+    height: 60%;
+    border-radius: 5px;
+    border-right: 12px solid rgba(99, 136, 217, 1);
+}
+
+.bus_info {
+    width: 95%;
+    margin-top: 1%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus_info h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bus_info div {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus_info div p {
+    text-align: center;
+    width: 80%;
+    padding: 1% 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(154, 164, 183, 1);
+    background-color: rgba(213, 215, 220, 0.479);
+    border-radius: 15px;
+}
+
+.travel_info {
+    width: 80%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel_info h1 {
+    text-align: center;
+    width: 17%;
+    padding: 1% 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(99, 136, 217, 1);
+    background-color: rgba(213, 215, 220, 0.479);
+    border-radius: 25px;
+}
+
+.travel_pic {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel_pic img {
+    margin: 0 2%;
+}
+
+.travel_pic div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel_pic p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.travel_pic h5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(154, 164, 183, 1);
+}
+
+.right_bottom {
+    width: 92%;
+    height: 20%;
+    margin-top: 5%;
+    padding: 0 10px;
+    background-color: rgba(248, 249, 250, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right_bottom h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.right_bottom p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 5px;
+    color: rgba(99, 136, 217, 1);
+}
+
+@media (max-width: 720px) {
+
+    .Ticket_Container {
+        width: 100%;
+        height: 22rem;
+        margin-bottom: 45%;
+        border-radius: 10px;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;   
+        align-items: center;
+    }
+
+    .left_sec {
+        width: 80%;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+        background: var(--bg_white);
+        border-right: none;
+        border-top: 2px #737373 dashed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;
+    }
+
+    .right_sec {
+        width: 80%;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        background: var(--bg_white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bus_info {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bus_info h1 {
+        margin-bottom: 0;
+    }
+
+    .bus_info div {
+        width: 95%;
+    }
+
+    .bus_info div p {
+        width: 45%;
+        padding: 1% 0;
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(154, 164, 183, 1);
+        background-color: rgba(213, 215, 220, 0.479);
+        border-radius: 15px;
+    }
+
+    .travel_info {
+        width: 90%;
+        margin-right: 2%;
+    }
+
+    .travel_info h1 {
+        width: 20%;
+        padding: 1% 0;
+        font-size: 25px;
+        font-weight: 700;
+        color: rgba(99, 136, 217, 1);
+        background-color: rgba(213, 215, 220, 0.479);
+        border-radius: 25px;
+    }
+
+    .travel_pic {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .right_bottom {
+        width: 85%;
+        height: 20%;
+        margin-top: 10%;
+        padding: 0 10px;
+        background-color: rgba(248, 249, 250, 1);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .Ticket_Container {
+        margin-bottom: 80%;
+    }
+
+    .left_sec {
+        width: 100%;
+    }
+
+    .bus_info h1 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .bus_info div p {
+        width: 50%;
+    }
+
+    .travel_info h1 {
+        width: 25%;
+        font-size: 20px;
+    }
+
+    .travel_pic {
+        width: 100%;
+    }
+
+    .travel_pic div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .travel_pic p {
+        font-size: 16px;
+    }
+
+    .travel_pic h5 {
+        font-size: 12px;
+    }
+
+    .right_sec {
+        width: 100%;
+    }
+
+}
